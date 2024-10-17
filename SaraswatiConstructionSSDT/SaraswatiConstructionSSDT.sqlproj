@@ -70,5 +70,9 @@
     <Build Include="dbo\Stored Procedures\Api_Account_GetUserByEmail.sql" />
     <Build Include="dbo\Stored Procedures\Api_Account_RegisterUser.sql" />
     <Build Include="dbo\Stored Procedures\Api_Account_VerifyEmail.sql" />
+    <Build Include="dbo\Tables\OTPStorage.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Account_VerifyOTP.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Account_SetPassword .sql" />
+    <Build Include="dbo\Stored Procedures\Api_Account_GenerateOTP.sql" />
   </ItemGroup>
 </Project>
