@@ -19,7 +19,10 @@ BEGIN
 					AND IsActive = 1
 				)
 		BEGIN
-			SELECT '0' AS ResultCode, 'Email is valid.' AS ResultDescription, Email, HashPassword
+			SELECT '0' AS ResultCode, 'Email is valid.' AS ResultDescription,
+			UserID,
+			Email, 
+			HashPassword
 			FROM [dbo].[Users]
 			WHERE Email = @Email
 		END

@@ -74,5 +74,10 @@
     <Build Include="dbo\Stored Procedures\Api_Account_VerifyOTP.sql" />
     <Build Include="dbo\Stored Procedures\Api_Account_SetPassword .sql" />
     <Build Include="dbo\Stored Procedures\Api_Account_GenerateOTP.sql" />
+    <Build Include="dbo\Tables\VendorDetails.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Vendor_GetVendorList.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Vendor_GetVendorByID.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Vendor_DeleteVendor.sql" />
+    <Build Include="dbo\Stored Procedures\Api_Vendor_CreateOrUpdateVendorDetails.sql" />
   </ItemGroup>
 </Project>
